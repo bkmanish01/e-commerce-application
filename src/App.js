@@ -12,14 +12,6 @@ import Login from "./components/Login";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-
-
-
-      {/* <Routes>
-        <Route exact path="/products/:id" element={<Product />} />
-      </Routes> */}
-
       <Routes>
         <Route exact path="/" element={ <Navbar />} /> 
         <Route exact path="/home" element={ <Home />} /> 
@@ -31,7 +23,6 @@ function App() {
         <Route exact path="/signup" element={ <Register />} />
         <Route exact path="/login" element={ <Login />} />
       </Routes>
-      {/* <Cart /> */}
     </>
   );
 }
