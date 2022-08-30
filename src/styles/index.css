@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@500;700&family=Lobster&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+:root {
+    --primary-color:#df7912;
+    --secondary-color:#780804;
+    --bg:#022e02;
+}
+
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.navbar-nav a {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.navbar-nav a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.button a {
+    font-size: 1.2rem;
+}
+.button a:hover {
+    color: var(--primary-color);
+}
+
+/* Home Styles */
+.home img {
+    height: 750px;
+}
+
+.home .card-title {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.home .card-text {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* About Styles */
+#about img {
+    width: 100%;
+    height: 350px;
+}
+
+#about h1 {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+}
+
+#about h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #cc3035;
+}
+
+#about p {
+    font-family: 'Lobster', cursive;
+    color: #028c28;
+}
+
+/* Products Styles */
+.container-fluid .row h1 {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+}
+
+/* Contact Style */
+#contact h1{
+    font-family: 'Lobster', cursive;
+    color: #C5DE21;
+}
+
+#contact img {
+    width: 600px;
+    height: 330px;
+}
+
+/* Footer Style */
+#footer {
+    background-color: #232323;
+}
+
+#footer h6 {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+}
+
+#footer p, #footer ul li {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+/* @media query for tablet */
+@media only screen and (min-width: 600px) and (max-width:991px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    /* Home Styles */
+    .home img {
+        height: 450px;
+    }
+    .home .card-title {
+        font-size: 2rem;
+    }
+
+    .home .card-text {
+        font-size: 2rem;
+    }
+
+    /* Contact styles */
+    #contact img {
+        width: 100%;
+        height: 330px;
+    }
+
+    /* About Styles */
+    #about img {
+        width: 100%;
+        height: 410px;
+    }
+
+}
+
+/* @media query for mobile */
+@media only screen and (min-width: 316px) and (max-width:480px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    /* Home Styles */
+    .home img {
+        height: 250px;
+    }
+    .home .card-title {
+        font-size: 1rem;
+    }
+
+    .home .card-text {
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    /* Products Styles */
+    .container .btn {
+        font-size:0.5rem; 
+    }
+
+    /* Contact styles */
+    #contact img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* About Styles */
+    #about img {
+        width: 100%;
+        height: 300px;
+    }
+}
