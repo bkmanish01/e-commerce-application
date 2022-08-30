@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 const About = () => {
     return (
        <div className="container-fluid text-white pb-3" id="about">
@@ -9,7 +10,7 @@ const About = () => {
         <hr />
         <div className="row">
             <div className="col-md-5 py-5 text-center">
-                <img src="/images/shopping_center.jpg" alt="about-us" />
+                <img src={"./images/shopping_center.jpg"} alt="about-us" />
             </div>
             <div className="col-md-7 py-4">
                 <h2>Know about us</h2>

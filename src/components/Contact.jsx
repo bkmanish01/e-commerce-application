@@ -9,7 +9,7 @@ const Contact = () => {
         <hr />
         <div className="row d-flex justify-content-center pb-5">
             <div className="col-md-5 py-5">
-                <img src="/images/google_map_01.jpg" alt="google map" />
+                <img src={"./images/google_map_01.jpg"} alt="google map" />
             </div>
             <div className="col-md-4 py-5 my-4">
                 <form>
