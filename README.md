@@ -15,13 +15,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - For learning purpose only.
 
 # Technologies used:
-  -React for creating a single page application
-  -Redux for state management
-  -Axios for API fetching
-  -CSS and Bootstrap for design and styled UI components
-  -Font-Awesome for stylist icons
-  -react-scroll package for scrollable navlink and pages.
-  -react-router for routing the individual pages inside the application.
+- React for creating a single page application
+- Redux for state management
+- Axios for API fetching
+- CSS and Bootstrap for design and styled UI components
+- Font-Awesome for stylist icons
+- react-scroll package for scrollable navlink and pages.
+- react-router for routing the individual pages inside the application.
   
 # API Used:
   Fake store api (https://fakestoreapi.com/products/)
