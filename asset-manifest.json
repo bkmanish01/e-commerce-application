@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/e-commerce-website/static/css/main.a5699382.css",
-    "main.js": "/e-commerce-website/static/js/main.bd55da62.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/e-commerce-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/e-commerce-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/e-commerce-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/e-commerce-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/e-commerce-website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/e-commerce-website/index.html",
-    "main.a5699382.css.map": "/e-commerce-website/static/css/main.a5699382.css.map",
-    "main.bd55da62.js.map": "/e-commerce-website/static/js/main.bd55da62.js.map"
+    "main.css": "/e-commerce-application/static/css/main.06e41f6d.css",
+    "main.js": "/e-commerce-application/static/js/main.bd55da62.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/e-commerce-application/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/e-commerce-application/index.html",
+    "main.06e41f6d.css.map": "/e-commerce-application/static/css/main.06e41f6d.css.map",
+    "main.bd55da62.js.map": "/e-commerce-application/static/js/main.bd55da62.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5699382.css",
+    "static/css/main.06e41f6d.css",
     "static/js/main.bd55da62.js"
   ]
 }
