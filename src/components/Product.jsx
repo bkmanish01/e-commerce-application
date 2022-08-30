@@ -11,7 +11,6 @@ const Product = () => {
     const { id } = useParams();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
 
     const dispatch = useDispatch();
 
@@ -30,8 +29,7 @@ const Product = () => {
                 setProduct(res.data);
             })
             .catch((err) => {
-                setError(err.message);
-                setProduct(null);
+                return err.message;
             })
             .finally(() => {
                 setLoading(false);

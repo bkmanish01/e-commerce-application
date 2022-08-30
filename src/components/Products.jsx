@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import axios from "axios";
-import Product from "./Product";
+
 
 
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [filter, setFilter] = useState(products);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
+
 
 
 
@@ -23,8 +23,7 @@ const Products = () => {
                 setFilter(res.data);
             })
             .catch((err) => {
-                setError(err.message);
-                setProducts(null);
+                return err.message;
             })
             .finally(() => {
                 setLoading(false);
@@ -34,10 +33,6 @@ const Products = () => {
         getData();
 
     }, []);
-
-    const Greet = () => {
-        console.log("Hey there Manish!");
-    }
 
     const Loading = () => {
         return (
