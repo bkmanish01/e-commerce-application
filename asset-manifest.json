@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/e-commerce-application/static/css/main.06e41f6d.css",
-    "main.js": "/e-commerce-application/static/js/main.2752c520.js",
+    "main.js": "/e-commerce-application/static/js/main.5c9ee102.js",
+    "static/media/shopping_center.jpg": "/e-commerce-application/static/media/shopping_center.0e5666dd8567e8f34abc.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fall_collection_01.jpg": "/e-commerce-application/static/media/fall_collection_01.c1f5f3fabd560de47fc9.jpg",
     "static/media/fontawesome-webfont.eot": "/e-commerce-application/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/e-commerce-application/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/google_map_01.jpg": "/e-commerce-application/static/media/google_map_01.b0ad3d277f7f04f6ab45.jpg",
     "index.html": "/e-commerce-application/index.html",
     "main.06e41f6d.css.map": "/e-commerce-application/static/css/main.06e41f6d.css.map",
-    "main.2752c520.js.map": "/e-commerce-application/static/js/main.2752c520.js.map"
+    "main.5c9ee102.js.map": "/e-commerce-application/static/js/main.5c9ee102.js.map"
   },
   "entrypoints": [
     "static/css/main.06e41f6d.css",
-    "static/js/main.2752c520.js"
+    "static/js/main.5c9ee102.js"
   ]
 }
