@@ -4,6 +4,7 @@ import { addItem } from '../redux/action';
 import { useParams } from 'react-router';
 import axios from 'axios';
 import { NavLink } from 'react-router-dom';
+import Navbar from './Navbar';
 
 
 
@@ -59,10 +60,12 @@ const Product = () => {
     const DisplayItem = () => { 
         return (
             <>
-                <div className="col-md-6 d-flex justify-content-center">
+                <Navbar />
+                <div className="row" style={{letterSpacing:"2px", background:"#B2B2B2", height:"100vh"}}>
+                <div className="col-md-6 d-flex justify-content-center py-3">
                     <img src={product.image} alt={product.title} height="400px" width="400px"/>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 py-3">
                     <h4 className="text-uppercase">{product.category}</h4>
                     <h1 className="display-6">{product.title}</h1>
                     <p className="lead fw-bolder">
@@ -76,14 +79,15 @@ const Product = () => {
                         <button className="btn btn-danger fw-bold ms-2">Go Back</button>
                     </NavLink>
                 </div>
+                </div>
             </>
         );
     };
 
     return (
         <div>
-            <div className="container-fluid py-4">
-                <div className="row py-5">
+            <div className="container-fluid">
+                <div className="row">
                     {loading ? <Loading/> : <DisplayItem/>}
                 </div>
             </div>

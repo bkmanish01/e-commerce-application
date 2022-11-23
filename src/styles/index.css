@@ -45,10 +45,6 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-.home .card-text {
-    font-family: 'Dancing Script', cursive;
-} 
-
 /* About Styles */
 #about img {
     width: 100%;
@@ -66,7 +62,8 @@
 }
 
 #about p {
-    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
 }
 
 /* Products Styles */
@@ -75,10 +72,19 @@
     color: var(--primary-color);
 }
 
+.product-box:hover {
+    border-radius: 20px;
+    border: 2px solid var(--primary-color);
+}
+
+.buy-btn:hover {
+    letter-spacing: 2px;
+}
+
 /* Contact Style */
 #contact h1{
     font-family: 'Lobster', cursive;
-    color: #C5DE21;
+    color: var(--primary-color);
 }
 
 #contact img {
@@ -97,9 +103,8 @@
 }
 
 #footer p, #footer ul li {
-    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
 }
-
 
 
 

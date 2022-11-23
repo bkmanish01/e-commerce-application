@@ -1,13 +1,16 @@
 import React from 'react';
 import { NavLink }  from 'react-router-dom';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 const Register = () => {
     return (
-        <div className="container-fluid text-white py-lg-5">
-            <NavLink to="/" className="btn ms-2">
+        <div className="container-fluid text-white" style={{letterSpacing:"2px", background:"#B2B2B2"}}>
+            <Navbar />
+            <NavLink to="/" className="btn ms-2 py-2">
                 <i className="fa fa-arrow-left me-1 bg-dark text-white border py-2 px-3 rounded-pill"> Back To Home</i>
             </NavLink>
-            <div className="row d-flex justify-content-center">
+            <div className="row d-flex justify-content-center mb-2">
                 <div className="card bg-dark col-md-6">
                     <div className="card-header text-center fs-1 fw-bolder">
                         Create Account Here!
@@ -62,6 +65,7 @@ const Register = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

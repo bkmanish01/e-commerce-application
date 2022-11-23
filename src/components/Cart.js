@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from 'react-redux';
 import { deleteItem, addItem, minusItem } from '../redux/action';
 import { NavLink } from 'react-router-dom';
+import Navbar from "./Navbar";
 
 
 const Cart = () => {
@@ -22,8 +23,9 @@ const Cart = () => {
   }
 
   return (
-    <div className="container-fluid py-5">
-        <h1 className="text-center fw-bolder text-decoration-underline">Your Shopping Cart:</h1>
+    <div className="container-fluid" style={{letterSpacing:"2px"}}>
+        <Navbar />
+        <h1 className="text-center fw-bolder text-decoration-underline py-3">Your Shopping Cart:</h1>
         <NavLink to="/" className="btn ms-2">
             <i className="fa fa-arrow-left me-1 bg-dark text-white border py-2 px-3 rounded-pill"> Back To Products</i>
         </NavLink>
@@ -36,7 +38,7 @@ const Cart = () => {
         state.map((x) => {
             const total = (x.qty * x.price).toFixed(2);
             return (
-                <div className="row py-3 my-4 bg-info" key={x.id}>
+                <div className="row py-3 my-4" key={x.id} style={{letterSpacing:"2px", border:"1px solid gray", margin:"4rem 0", background:"#B2B2B2"}}>
                     <div className="col-md-6 d-flex justify-content-center">
                         <img src={x.image} alt={x.title} height="200px" width="200px"/>
                     </div>

@@ -102,12 +102,12 @@ const Products = () => {
                     filter.map((product) => {
                         return (   
                             <div className="col-md-2 m-3" key={product.id}>
-                                <div className="card text-center text-dark p-4">
+                                <div className="card text-center text-dark p-4 product-box">
                                     <img src={product.image} className="card-img-top" alt={product.title} height="250px"/>
                                     <div className="card-body">
                                         <h5 className="card-title mb-0">{product.title.substring(0,12)}</h5>
                                         <p className="card-text lead fw-bold">${product.price}</p>
-                                        <Link to={`/products/${product.id}`}  className="btn btn-success" >Buy Now</Link>
+                                        <Link to={`/products/${product.id}`}  className="btn btn-success buy-btn" >Buy Now</Link>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,6 @@ const Products = () => {
                             <h1 className="display-6 fw-bolder text-center">
                             Our Latest Products
                             </h1>
-                            <hr />
                         </div>
                     </div>
                     <div className="row justify-content-center pb-5">

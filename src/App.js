@@ -1,5 +1,4 @@
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -14,8 +13,7 @@ function App() {
     <>
     <BrowserRouter basename="/e-commerce-application">
       <Routes>
-        <Route exact path="/" element={ <Navbar />} /> 
-        <Route exact path="/home" element={ <Home />} /> 
+        <Route exact path="/" element={ <Home />} /> 
         <Route path="/about" element={ <About /> } />
         <Route path="/products" element={ <Products /> } />
         <Route path="/contact" element={ <Contact /> } />

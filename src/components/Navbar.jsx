@@ -2,18 +2,14 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Products from './Products';
-import Contact from './Contact';
-import Footer from './Footer';
+
 
 
 const Navbar = () => {
     const state = useSelector((state) => state.handleCart);
 
     return (
-        <div className="bg-dark" id="layout">
+        <div className="bg-dark" id="layout" style={{letterSpacing:"2px"}}>
             <nav className="navbar navbar-expand-lg  navbar-dark bg-dark py-3 shadow-sm">
                 <div className="container">
                     <Link className="navbar-brand fw-bold" to="/">Global Mart</Link>
@@ -51,17 +47,12 @@ const Navbar = () => {
                                 <i className="fa fa-user-plus me-1 text-white"> SignUp</i>
                             </NavLink>
                             <NavLink to="/cart" className="btn ms-2">
-                                <i className="fa fa-shopping-cart me-1 text-white"> cart ({state.length})</i>
+                                <i className="fa fa-shopping-cart me-1 text-white"> cart ( <span style={{color:"red"}}>{state.length}</span> )</i>
                             </NavLink>
                         </form>
                     </div>
                 </div>
             </nav>
-            <Home />
-            <Products />
-            <About />
-            <Contact />
-            <Footer />
         </div>
     );
 };
